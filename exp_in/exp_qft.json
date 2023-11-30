@@ -1,0 +1,10 @@
+{
+  "benchmark": "qft",
+  "exp_name": "qft",
+  "benchmark_path": "./benchmark/qft/",
+  "out_path": "./exp_out/qft/",
+  "fit_scale" : false,
+  "limitLength" : [9],
+  "regenerate" : false,
+  "round" : 5
+}

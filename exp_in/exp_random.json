@@ -1,0 +1,10 @@
+{
+  "benchmark": "random",
+  "exp_name": "random",
+  "benchmark_path": "./benchmark/random/",
+  "out_path": "./exp_out/random/",
+  "fit_scale" : false,
+  "limitLength" : [9],
+  "regenerate" : false,
+  "round" : 5
+}

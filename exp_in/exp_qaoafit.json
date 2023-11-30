@@ -1,0 +1,10 @@
+{
+  "benchmark": "qaoafit",
+  "exp_name": "qaoafit",
+  "benchmark_path": "./benchmark/qaoafit/",
+  "out_path": "./exp_out/qaoafit/",
+  "fit_scale" : true,
+  "limitLength" : [9],
+  "regenerate" : false,
+  "round" : 5
+}

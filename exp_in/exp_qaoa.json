@@ -1,0 +1,10 @@
+{
+  "benchmark": "qaoa",
+  "exp_name": "qaoa",
+  "benchmark_path": "./benchmark/qaoa/",
+  "out_path": "./exp_out/qaoa/",
+  "fit_scale" : false,
+  "limitLength" : [9],
+  "regenerate" : false,
+  "round" : 5
+}
