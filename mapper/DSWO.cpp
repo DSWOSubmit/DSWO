@@ -863,8 +863,8 @@ extern "C"
 
         stringstream fmt;
         fmt.str("");
-        fmt<<ansTrees.size()<<".";
-        for (auto &ag:ansTrees){
+        fmt<<initialGates.size()<<".";
+        for (auto &ag:initialGates){
             if (ag.id == -1){
                 fmt<<ag.u<<","<<ag.v<<".";
             }else{
