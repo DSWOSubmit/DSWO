@@ -33,7 +33,7 @@ def DSWO(circuit : QuantumCircuit, couplingMap, initialLayout, limited = 15, nam
         gate_passin.append(gateid)
         gates_mapping[gateid] = gate
 
-    if True or not os.path.exists(f"./mapper/{name}"):
+    if not os.path.exists(f"./mapper/{name}"):
         command = f"g++ -std=c++17 -O2 -o ./mapper/{name} -shared -fPIC ./mapper/DSWO.cpp"
         os.system(command)
 
